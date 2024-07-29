@@ -2,7 +2,10 @@
 Sending data from Arduino via serial communication to be forwarded by ESP IoT
 
 ESP8266 has 1 Analog Input, so.. I forward Multiple sensor data from arduino (Ex. Arduino Uno) over serial communication to ESP8266 and push it to Firebase
-
+Working library for this project:
+1. Firebase ESP8266 Client, `Version:4.4.14`
+2. MQ7 Library (Optional) just for example.
+   
 Arduino Side :
 1. Collect sensor data from analog port or other pin,
 2. Print it using Serial using this format `data1,data2,data3,X`, data1 is sensor 1, data2 is sensor 2, data3 is sensor 3 then after comma separator print `"X"` then (enter) in arduino use `Serial.println("X");`.
