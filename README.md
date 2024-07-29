@@ -7,10 +7,12 @@ Arduino Side :
 1. Collect sensor data from analog port or other pin,
 2. Print it using Serial using this format `data1,data2,data3,X`, data1 is sensor 1, data2 is sensor 2, data3 is sensor 3 then after comma separator print `"X"` then (enter) in arduino use `Serial.println("X");`.
 3. example implementation bellow.
-   > Serial.print(api);
-   > Serial.print(",");
-   > Serial.print(tekanan);
-   > Serial.print(",");
-   > Serial.print(carbon);
-   > Serial.print(",");
-   > Serial.println("X"); 
+   ``` C++
+   Serial.print(data1);
+   Serial.print(",");
+   Serial.print(data2);
+   Serial.print(",");
+   Serial.print(data3);
+   Serial.print(",");
+   Serial.println("X");
+   ```
