@@ -15,11 +15,12 @@ String simpandata = "";
 String perintah;
 
 int sensor1, sensor2, sensor3;
+int num_data=3; // change this for how much variable
 
 String inputString = "";         // a String to hold incoming data
 boolean stringComplete = false;  // whether the string is complet
 
-int data[3];
+int data[num_data];
 int urutan;
 
 void setup() {
@@ -50,7 +51,7 @@ void loop() {
 jump:
 
     if (inChar == 'X') {
-      for (int i = 0; i < 3; i++) {
+      for (int i = 0; i < num_data; i++) {
         Serial.print(data[i]);
         Serial.print(",");
       }
