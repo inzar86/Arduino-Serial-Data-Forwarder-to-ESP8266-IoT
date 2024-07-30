@@ -19,11 +19,11 @@ void loop() {
   data2 = random(0, 100);  // example random data tobe send to ESP over serial
   data3 = random(200, 300);
 
-  Serial.print(api);
+  Serial.print(data1);
   Serial.print(",");
-  Serial.print(tekanan);
+  Serial.print(data2);
   Serial.print(",");
-  Serial.print(carbon);
+  Serial.print(data3);
   Serial.print(",");
   Serial.println("X");
 
