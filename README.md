@@ -5,7 +5,7 @@ ESP8266 has 1 Analog Input, so.. I forward Multiple sensor data from arduino (Ex
 Working library for this project:
 1. Editor Arduino, `Version:2.3.2`
 2. EESP8266 Board, `Version:3.1.2`
-3. Firebase ESP8266 Client, `Version:4.4.14`
+3. Firebase ESP8266 Client, `Version:3.2.2`
 4. MQ7 Library (Optional) just for example.
    
 Arduino Side :
